@@ -2,7 +2,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import database.MovieDao
+import data.database.MovieDao
 import com.example.watchapp.data.model.MovieEntity
 
 @Database(entities = [MovieEntity::class], version = 1, exportSchema = false)
